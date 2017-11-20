@@ -10,30 +10,15 @@ using System.Web.Http;
 namespace Back_UITest.Controllers
 {
     [RoutePrefix("api/shareholder")]
-    public class ShareholderController : ApiController
+    public class ShareholderController : BaseController
     {
-        private string GetHost()
-        {
-            return ConfigurationManager.AppSettings["Host"];
-        }
-
-        private string GetShareholderService()
-        {
-            return $"{GetHost()}/ShareholderAccountService.svc/Shareholder/";
-        }
+        Service service = Service.Shareholder;
 
         [HttpGet, Route("GetFiltered/{search}")]
         [AllowAnonymous]
         public async Task<HttpResponseMessage> GetAll(string search)
         {
-            HttpResponseMessage result;
-            using (HttpClient client = new HttpClient() { BaseAddress = new Uri(GetShareholderService()) })
-            {
-                if (string.IsNullOrEmpty(search) || search.ToLower() == "null")
-                    result = await client.GetAsync("GetFiltered");
-                else
-                    result = await client.GetAsync("GetFiltered?search=" + search);
-            }
+            HttpResponseMessage result = await GetFromService("GetFiltered", service, new List<string>() { "search=" + search });
             return result;
         }
 
@@ -41,11 +26,7 @@ namespace Back_UITest.Controllers
         [AllowAnonymous]
         public async Task<HttpResponseMessage> Shareholder(string id)
         {
-            HttpResponseMessage result;
-            using (HttpClient client = new HttpClient() { BaseAddress = new Uri(GetShareholderService()) })
-            {
-                result = await client.GetAsync("Shareholder/" + id);
-            }
+            HttpResponseMessage result = await GetFromService("Shareholder", service, new List<string>() { id }, true);
             return result;
         }
 
@@ -53,14 +34,7 @@ namespace Back_UITest.Controllers
         [AllowAnonymous]
         public async Task<HttpResponseMessage> Export(string search)
         {
-            HttpResponseMessage result;
-            using (HttpClient client = new HttpClient() { BaseAddress = new Uri(GetShareholderService()) })
-            {
-                if (string.IsNullOrEmpty(search) || search.ToLower() == "null")
-                    result = await client.GetAsync("Export");
-                else
-                    result = await client.GetAsync("Export?search=" + search);
-            }
+            HttpResponseMessage result = await GetFromService("Export", service, new List<string>() { "search=" + search });
             return result;
         }
 
@@ -68,11 +42,7 @@ namespace Back_UITest.Controllers
         [AllowAnonymous]
         public async Task<HttpResponseMessage> ExportSingle(string id)
         {
-            HttpResponseMessage result;
-            using (HttpClient client = new HttpClient() { BaseAddress = new Uri(GetShareholderService()) })
-            {
-                result = await client.GetAsync("Export/" + id );
-            }
+            HttpResponseMessage result = await GetFromService("Export", service, new List<string>() { id }, true);
             return result;
         }
     }

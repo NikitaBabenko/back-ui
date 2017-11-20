@@ -156,24 +156,26 @@ var _a;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng2_datepicker__ = __webpack_require__("../../../../ng2-datepicker/bundles/ng2-datepicker.umd.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng2_datepicker___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_ng2_datepicker__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_link_component_link_component_component__ = __webpack_require__("../../../../../src/app/components/link-component/link-component.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_feedback_view_component_feedback_view_component_component__ = __webpack_require__("../../../../../src/app/components/feedback-view-component/feedback-view-component.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_all_feadbacks_component_all_feedbacks_component_component__ = __webpack_require__("../../../../../src/app/components/all-feadbacks-component/all-feedbacks-component.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_shareholder_view_component_shareholder_view_component_component__ = __webpack_require__("../../../../../src/app/components/shareholder-view-component/shareholder-view-component.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_all_shareholders_component_all_shareholders_component_component__ = __webpack_require__("../../../../../src/app/components/all-shareholders-component/all-shareholders-component.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_home_component_home_component_component__ = __webpack_require__("../../../../../src/app/components/home-component/home-component.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__app_routing_module__ = __webpack_require__("../../../../../src/app/app-routing.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__services_home_service__ = __webpack_require__("../../../../../src/app/services/home.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__services_share_service__ = __webpack_require__("../../../../../src/app/services/share.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__services_base_http_get_service__ = __webpack_require__("../../../../../src/app/services/base-http-get.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__angular_common__ = __webpack_require__("../../../common/@angular/common.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_shareholder_link_component_shareholder_link_component_component__ = __webpack_require__("../../../../../src/app/components/shareholder-link-component/shareholder-link-component.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_feedback_view_component_feedback_view_component_component__ = __webpack_require__("../../../../../src/app/components/feedback-view-component/feedback-view-component.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_all_feadbacks_component_all_feedbacks_component_component__ = __webpack_require__("../../../../../src/app/components/all-feadbacks-component/all-feedbacks-component.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_shareholder_view_component_shareholder_view_component_component__ = __webpack_require__("../../../../../src/app/components/shareholder-view-component/shareholder-view-component.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_all_shareholders_component_all_shareholders_component_component__ = __webpack_require__("../../../../../src/app/components/all-shareholders-component/all-shareholders-component.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_home_component_home_component_component__ = __webpack_require__("../../../../../src/app/components/home-component/home-component.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__app_routing_module__ = __webpack_require__("../../../../../src/app/app-routing.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__services_home_service__ = __webpack_require__("../../../../../src/app/services/home.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__services_share_service__ = __webpack_require__("../../../../../src/app/services/share.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__services_base_http_get_service__ = __webpack_require__("../../../../../src/app/services/base-http-get.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__angular_common__ = __webpack_require__("../../../common/@angular/common.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -200,31 +202,33 @@ var AppModule = (function () {
 AppModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_17__app_component__["a" /* AppComponent */],
+            __WEBPACK_IMPORTED_MODULE_18__app_component__["a" /* AppComponent */],
             __WEBPACK_IMPORTED_MODULE_5__components_link_component_link_component_component__["a" /* LinkComponent */],
-            __WEBPACK_IMPORTED_MODULE_7__components_all_feadbacks_component_all_feedbacks_component_component__["a" /* AllFeedbacks */],
-            __WEBPACK_IMPORTED_MODULE_6__components_feedback_view_component_feedback_view_component_component__["a" /* FeedbackView */],
-            __WEBPACK_IMPORTED_MODULE_8__components_shareholder_view_component_shareholder_view_component_component__["a" /* ShareholderView */],
-            __WEBPACK_IMPORTED_MODULE_9__components_all_shareholders_component_all_shareholders_component_component__["a" /* AllShareholders */],
-            __WEBPACK_IMPORTED_MODULE_10__components_home_component_home_component_component__["a" /* Home */]
+            __WEBPACK_IMPORTED_MODULE_6__components_shareholder_link_component_shareholder_link_component_component__["a" /* ShareholderLinkComponent */],
+            __WEBPACK_IMPORTED_MODULE_8__components_all_feadbacks_component_all_feedbacks_component_component__["a" /* AllFeedbacks */],
+            __WEBPACK_IMPORTED_MODULE_7__components_feedback_view_component_feedback_view_component_component__["a" /* FeedbackView */],
+            __WEBPACK_IMPORTED_MODULE_9__components_shareholder_view_component_shareholder_view_component_component__["a" /* ShareholderView */],
+            __WEBPACK_IMPORTED_MODULE_10__components_all_shareholders_component_all_shareholders_component_component__["a" /* AllShareholders */],
+            __WEBPACK_IMPORTED_MODULE_11__components_home_component_home_component_component__["a" /* Home */],
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_4_ng2_datepicker__["NgDatepickerModule"],
-            __WEBPACK_IMPORTED_MODULE_11__app_routing_module__["a" /* AppRoutingModule */],
+            __WEBPACK_IMPORTED_MODULE_12__app_routing_module__["a" /* AppRoutingModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["FormsModule"],
-            __WEBPACK_IMPORTED_MODULE_15__angular_http__["c" /* HttpModule */],
+            __WEBPACK_IMPORTED_MODULE_16__angular_http__["c" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_3_ag_grid_angular_main__["AgGridModule"].withComponents([
-                __WEBPACK_IMPORTED_MODULE_5__components_link_component_link_component_component__["a" /* LinkComponent */]
+                __WEBPACK_IMPORTED_MODULE_5__components_link_component_link_component_component__["a" /* LinkComponent */],
+                __WEBPACK_IMPORTED_MODULE_6__components_shareholder_link_component_shareholder_link_component_component__["a" /* ShareholderLinkComponent */]
             ])
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_12__services_home_service__["a" /* HomeService */],
-            __WEBPACK_IMPORTED_MODULE_13__services_share_service__["a" /* ShareService */],
-            __WEBPACK_IMPORTED_MODULE_14__services_base_http_get_service__["a" /* BaseHttpGetService */],
-            __WEBPACK_IMPORTED_MODULE_16__angular_common__["DatePipe"]
+            __WEBPACK_IMPORTED_MODULE_13__services_home_service__["a" /* HomeService */],
+            __WEBPACK_IMPORTED_MODULE_14__services_share_service__["a" /* ShareService */],
+            __WEBPACK_IMPORTED_MODULE_15__services_base_http_get_service__["a" /* BaseHttpGetService */],
+            __WEBPACK_IMPORTED_MODULE_17__angular_common__["DatePipe"]
         ],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_17__app_component__["a" /* AppComponent */]]
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_18__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
 
@@ -377,7 +381,7 @@ module.exports = "<!--The content below is only a placeholder and can be replace
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AllShareholders; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__link_component_link_component_component__ = __webpack_require__("../../../../../src/app/components/link-component/link-component.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shareholder_link_component_shareholder_link_component_component__ = __webpack_require__("../../../../../src/app/components/shareholder-link-component/shareholder-link-component.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_share_service__ = __webpack_require__("../../../../../src/app/services/share.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -415,11 +419,11 @@ var AllShareholders = (function () {
             {
                 headerName: "ID",
                 field: "ShareholderAccountId",
+                cellRendererFramework: __WEBPACK_IMPORTED_MODULE_1__shareholder_link_component_shareholder_link_component_component__["a" /* ShareholderLinkComponent */],
             },
             {
                 headerName: "Имя",
                 field: "LastName",
-                cellRendererFramework: __WEBPACK_IMPORTED_MODULE_1__link_component_link_component_component__["a" /* LinkComponent */],
             },
             {
                 headerName: "Отчество",
@@ -570,7 +574,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/feedback-view-component/feedback-view.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\r\n\t\t<div class=\"row\">\r\n\t\t\t<div class=\"col-lg-12\">\r\n\t\t\t  <button (click)=\"backClicked()\" class=\"btn btn-primary\">Назад</button>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t\t<div class=\"row\" style=\"margin-top: 60px;\">\r\n\t\t\t<div class=\"col-lg-6\">\r\n\t\t\t\t<label>Фамилия</label>\r\n\t\t\t\t<br>\r\n\t\t\t\t<input [(ngModel)]=\"formData.LastName\" type=\"\" name=\"\">\r\n\t\t\t\t<br>\r\n\t\t\t\t<label>Отчество</label>\r\n\t\t\t\t<br>\r\n\t\t\t\t<input [(ngModel)]=\"formData.MiddleName\" type=\"\" name=\"\">\r\n\t\t\t\t<br>\r\n\t\t\t\t<label>Организация</label>\r\n\t\t\t\t<br>\r\n\t\t\t\t<input disabled [(ngModel)]=\"formData.CompanyName\" type=\"\" name=\"\">\r\n\t\t\t\t<br>\r\n\t\t\t\t<label>Телефон</label>\r\n\t\t\t\t<br>\r\n\t\t\t\t<input disabled [(ngModel)]=\"formData.Phone\" type=\"\" name=\"\">\r\n\t\t\t</div>\r\n\t\t\t<div class=\"col-lg-6\">\r\n\t\t\t\t<label>Должность</label>\r\n\t\t\t\t<br>\r\n\t\t\t\t<input [(ngModel)]=\"formData.Position\" type=\"\" name=\"\">\r\n\t\t\t\t<br>\r\n\t\t\t\t<label>Страна</label>\r\n\t\t\t\t<br>\r\n\t\t\t\t<input [(ngModel)]=\"formData.Country\"  type=\"\" name=\"\">\r\n\t\t\t\t<br>\r\n\t\t\t\t<label>Город</label>\r\n\t\t\t\t<br>\r\n\t\t\t\t<input [(ngModel)]=\"formData.City\"  type=\"\" name=\"\">\r\n\t\t\t\t<br>\r\n\t\t\t\t<label>Регион</label>\r\n\t\t\t\t<br>\r\n\t\t\t\t<input [(ngModel)]=\"formData.Region\" type=\"\" name=\"\">\r\n\t\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t\t<div class=\"row\" style=\"margin-top: 20px;\">\r\n\t\t\t<div class=\"col-lg-12\">\r\n\t\t\t  <button class=\"btn btn-primary\">Сохранить</button>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>"
+module.exports = "<div class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-lg-12\">\r\n            <button (click)=\"backClicked()\" class=\"btn btn-primary\">Назад</button>\r\n        </div>\r\n    </div>\r\n    <div class=\"row\" style=\"margin-top: 60px;\">\r\n        <div class=\"col-lg-6\">\r\n            <label>Название</label>\r\n            <br>\r\n            <input [(ngModel)]=\"formData.FormTitle\" disabled type=\"\" name=\"\">\r\n            <br>\r\n            <label>Referer</label>\r\n            <br>\r\n            <input [(ngModel)]=\"formData.Referer\" disabled type=\"\" name=\"\">\r\n            <br>\r\n            <label>UserAgent</label>\r\n            <br>\r\n            <input [(ngModel)]=\"formData.UserAgent\" disabled type=\"\" name=\"\">\r\n            <br>\r\n            <label>utmctr</label>\r\n            <br>\r\n            <input disabled [(ngModel)]=\"formData.Utmctr\" type=\"\" name=\"\">\r\n        </div>\r\n        <div class=\"col-lg-6\">\r\n            <label>Дата подачи</label>\r\n            <br>\r\n            <input [(ngModel)]=\"formData.CreatedDate\" disabled type=\"\" name=\"\">\r\n            <br>\r\n            <label>Статус</label>\r\n            <br>\r\n            <input [(ngModel)]=\"formData.Status\" disabled type=\"\" name=\"\">\r\n            <br>\r\n            <label>utmcsr</label>\r\n            <br>\r\n            <input [(ngModel)]=\"formData.Utmcsr\" disabled type=\"\" name=\"\">\r\n            <br>\r\n            <label>utmcct</label>\r\n            <br>\r\n            <input [(ngModel)]=\"formData.Utmcct\" disabled type=\"\" name=\"\">\r\n        </div>\r\n    </div>\r\n    <div class=\"row\" style=\"margin-top: 40px;\">\r\n        <div class=\"col-lg-12\" *ngFor=\"let form of formData\">\r\n            <label>{{form.FieldTitle}}</label>\r\n            <br>\r\n            <textarea disabled style=\"width: 100%;\" [(ngModel)]=\"form.FieldValue\" placeholder=\"Данные с поля\"></textarea>\r\n        </div>\r\n    </div>\r\n    <div class=\"row\" style=\"margin-top: 20px;\">\r\n        <div class=\"col-lg-12\">\r\n            <button (click)=\"export()\" class=\"btn btn-primary\">Экспорт</button>\r\n        </div>\r\n    </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -674,6 +678,45 @@ LinkComponent = __decorate([
 
 /***/ }),
 
+/***/ "../../../../../src/app/components/shareholder-link-component/shareholder-link-component.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<a [routerLink]=\"['/shareholder', params.data.ShareholderAccountId]\">{{ params.value }}</a>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/shareholder-link-component/shareholder-link-component.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShareholderLinkComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var ShareholderLinkComponent = (function () {
+    function ShareholderLinkComponent() {
+    }
+    ShareholderLinkComponent.prototype.agInit = function (params) {
+        this.params = params;
+    };
+    return ShareholderLinkComponent;
+}());
+ShareholderLinkComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'shareholder-link-component',
+        template: __webpack_require__("../../../../../src/app/components/shareholder-link-component/shareholder-link-component.component.html")
+    })
+], ShareholderLinkComponent);
+
+//# sourceMappingURL=shareholder-link-component.component.js.map
+
+/***/ }),
+
 /***/ "../../../../../src/app/components/shareholder-view-component/shareholder-view-component.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -721,12 +764,9 @@ var ShareholderView = (function () {
         var _this = this;
         this.idSubscription = this.route.params.subscribe(function (params) {
             _this.id = params.id;
-            _this.ShareService.getAllForms().then(function (response) {
-                _this.formData = response.find(function (item) { return item.FormId == _this.id; });
-                _this.ShareService.getForm(+_this.id).then(function (response) {
-                    _this.formList = response;
-                    return _this.formList;
-                });
+            _this.ShareService.getForm(+_this.id).then(function (response) {
+                _this.formData = response;
+                return _this.formData;
             });
         });
     };
@@ -748,7 +788,7 @@ var _a, _b, _c, _d;
 /***/ "../../../../../src/app/components/shareholder-view-component/shareholder-view.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\r\n\t<div class=\"row\">\r\n\t    <div class=\"col-lg-12\">\r\n\t      <button (click)=\"backClicked()\" class=\"btn btn-primary\">Назад</button>\r\n\t    </div>\r\n\t</div>\r\n\t<div class=\"row\" style=\"margin-top: 60px;\">\r\n\t\t<div class=\"col-lg-6\">\r\n\t\t\t<label>Название</label>\r\n\t\t\t<br>\r\n\t\t\t<input [(ngModel)]=\"formData.FormTitle\" disabled type=\"\" name=\"\">\r\n\t\t\t<br>\r\n\t\t\t<label>Referer</label>\r\n\t\t\t<br>\r\n\t\t\t<input [(ngModel)]=\"formData.Referer\" disabled type=\"\" name=\"\">\r\n\t\t\t<br>\r\n\t\t\t<label>UserAgent</label>\r\n\t\t\t<br>\r\n\t\t\t<input [(ngModel)]=\"formData.UserAgent\" disabled type=\"\" name=\"\">\r\n\t\t\t<br>\r\n\t\t\t<label>utmctr</label>\r\n\t\t\t<br>\r\n\t\t\t<input disabled [(ngModel)]=\"formData.Utmctr\" type=\"\" name=\"\">\r\n\t\t</div>\r\n\t\t<div class=\"col-lg-6\">\r\n\t\t\t<label>Дата подачи</label>\r\n\t\t\t<br>\r\n\t\t\t<input [(ngModel)]=\"formData.CreatedDate\" disabled type=\"\" name=\"\">\r\n\t\t\t<br>\r\n\t\t\t<label>Статус</label>\r\n\t\t\t<br>\r\n\t\t\t<input [(ngModel)]=\"formData.Status\"  disabled type=\"\" name=\"\">\r\n\t\t\t<br>\r\n\t\t\t<label>utmcsr</label>\r\n\t\t\t<br>\r\n\t\t\t<input [(ngModel)]=\"formData.Utmcsr\" disabled type=\"\" name=\"\">\r\n\t\t\t<br>\t\r\n\t\t\t<label>utmcct</label>\r\n\t\t\t<br>\r\n\t\t\t<input [(ngModel)]=\"formData.Utmcct\" disabled type=\"\" name=\"\">\r\n\t\t</div>\r\n\t</div>\r\n\t<div class=\"row\" style=\"margin-top: 40px;\">\r\n\t\t<div class=\"col-lg-12\" *ngFor=\"let form of formList\">\r\n\t\t\t<label>{{form.FieldTitle}}</label>\r\n\t\t\t<br>\r\n\t\t\t<textarea disabled style=\"width: 100%;\" [(ngModel)]=\"form.FieldValue\" placeholder=\"Данные с поля\"></textarea>\r\n\t\t</div>\r\n\t</div>\r\n\t<div class=\"row\" style=\"margin-top: 20px;\">\r\n\t    <div class=\"col-lg-12\">\r\n\t      <button (click)=\"export()\" class=\"btn btn-primary\">Экспорт</button>\r\n\t    </div>\r\n\t</div>\r\n</div>"
+module.exports = "<div class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-lg-12\">\r\n            <button (click)=\"backClicked()\" class=\"btn btn-primary\">Назад</button>\r\n        </div>\r\n    </div>\r\n    <div class=\"row\" style=\"margin-top: 60px;\">\r\n        <div class=\"col-lg-6\">\r\n            <label>Фамилия</label>\r\n            <br>\r\n            <input [(ngModel)]=\"formData.LastName\" type=\"\" name=\"\">\r\n            <br>\r\n            <label>Отчество</label>\r\n            <br>\r\n            <input [(ngModel)]=\"formData.MiddleName\" type=\"\" name=\"\">\r\n            <br>\r\n            <label>Организация</label>\r\n            <br>\r\n            <input disabled [(ngModel)]=\"formData.CompanyName\" type=\"\" name=\"\">\r\n            <br>\r\n            <label>Телефон</label>\r\n            <br>\r\n            <input disabled [(ngModel)]=\"formData.Phone\" type=\"\" name=\"\">\r\n        </div>\r\n        <div class=\"col-lg-6\">\r\n            <label>Должность</label>\r\n            <br>\r\n            <input [(ngModel)]=\"formData.Position\" type=\"\" name=\"\">\r\n            <br>\r\n            <label>Страна</label>\r\n            <br>\r\n            <input [(ngModel)]=\"formData.Country\" type=\"\" name=\"\">\r\n            <br>\r\n            <label>Город</label>\r\n            <br>\r\n            <input [(ngModel)]=\"formData.City\" type=\"\" name=\"\">\r\n            <br>\r\n            <label>Регион</label>\r\n            <br>\r\n            <input [(ngModel)]=\"formData.Region\" type=\"\" name=\"\">\r\n\r\n        </div>\r\n    </div>\r\n    <div class=\"row\" style=\"margin-top: 20px;\">\r\n        <div class=\"col-lg-12\">\r\n            <button class=\"btn btn-primary\">Сохранить</button>\r\n        </div>\r\n    </div>\r\n</div>"
 
 /***/ }),
 
@@ -945,7 +985,7 @@ var ShareService = (function (_super) {
         });
     };
     ShareService.prototype.getForm = function (id) {
-        return this.http.get(this.formsUrl + "/Shareholder/" + id)
+        return this.http.get(this.formsUrl + "/" + id)
             .toPromise()
             .then(function (response) {
             var result = response.json();
